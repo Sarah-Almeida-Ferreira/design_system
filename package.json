@@ -55,6 +55,7 @@
   },
   "files": [
     "dist",
-    "package.json"
+    "index.js",
+    "index.d.cjs"
   ]
 }
