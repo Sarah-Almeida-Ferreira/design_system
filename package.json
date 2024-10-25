@@ -52,5 +52,9 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
 }

@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, cleanup } from "@testing-library/react";
-import { Input } from "./Input";
+import Input from "./Input";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { afterEach, describe, expect, it} from "vitest";
 

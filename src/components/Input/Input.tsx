@@ -4,7 +4,7 @@ import { FaEyeSlash } from "react-icons/fa";
 import "./input.css";
 
 
-export const Input = ({ type, name, placeholder, value, onChange, ...props }: InputHTMLAttributes<HTMLInputElement>) => {
+const Input = ({ type, name, placeholder, value, onChange, ...props }: InputHTMLAttributes<HTMLInputElement>) => {
   const [showPassword, setShowPassword] = useState(false);
 
   const handleTogglePassword = () => {
@@ -42,3 +42,5 @@ export const Input = ({ type, name, placeholder, value, onChange, ...props }: In
     </div>
   );
 };
+
+export default Input;
